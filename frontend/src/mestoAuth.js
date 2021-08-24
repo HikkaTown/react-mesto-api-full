@@ -1,4 +1,4 @@
-const BASE_URL = 'http://api.mesto.praktikum.nomoredomains.rocks';
+const BASE_URL = 'https://api.mesto.praktikum.nomoredomains.rocks';
 
 function _responseValid(res) {
   return  res.ok ? res.json() : Promise.reject(`${res.status}`);
