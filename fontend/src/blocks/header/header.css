@@ -1,0 +1,25 @@
+.header {
+  max-width: 880px;
+  margin: 45px auto 0;
+  border-bottom: 1px solid rgba(84,84,84, .7);
+  display: flex; 
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 940px) {
+  .header {
+    width: calc( 100% - 44px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    margin-top: 0px;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+}

@@ -1,0 +1,15 @@
+.profile__avatar-overlay {
+  background-color: rgba(0, 0, 0, .4);
+  background-image: url(../../../images/edit-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 26px 26px;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: 30px;
+  opacity: 0;
+  cursor: pointer;
+}

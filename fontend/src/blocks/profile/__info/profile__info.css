@@ -1,0 +1,26 @@
+.profile__info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(-webkit-min-content, -webkit-max-content) 18px
+    minmax(-webkit-min-content, -webkit-max-content);
+  -ms-grid-columns: minmax(min-content, max-content) 18px
+    minmax(min-content, max-content);
+  grid-template-columns: repeat(
+    2,
+    minmax(-webkit-min-content, -webkit-max-content)
+  );
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  row-gap: 16px;
+  -webkit-column-gap: 18px;
+  -moz-column-gap: 18px;
+  column-gap: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .profile__info {
+    row-gap: 14px;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+  }
+}

@@ -1,0 +1,16 @@
+.photocard {
+  max-width: 880px;
+  margin: 50px auto 0;
+}
+
+@media screen and (max-width: 940px) {
+  .photocard {
+    width: calc( 100% - 44px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photocard {
+    width: calc( 100% - 38px);
+  }
+}

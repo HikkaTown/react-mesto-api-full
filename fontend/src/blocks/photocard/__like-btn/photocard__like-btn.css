@@ -1,0 +1,24 @@
+.photocard__like-btn {
+  margin-left: auto;
+  height: 19px;
+  width: 22px;
+  background-image: url('../../../images/like-icon.svg');
+  background-repeat: no-repeat;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  border: none;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.photocard__like-btn:hover {
+  opacity: .5;
+}
+/* чтобы на планшетах и телефонах иконка лайка ставилась сразу без ховера */
+@media screen and (max-width: 768px) {
+  .photocard__like-btn:hover {
+    opacity: 1;
+  }
+}

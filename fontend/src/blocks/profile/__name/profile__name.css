@@ -1,0 +1,25 @@
+.profile__name {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+  color: #fff;
+  display: inline-block;
+  max-width: 294px;
+  margin: 0;
+  padding: 0;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 425px) {
+  .profile__name {
+    font-size: 27px;
+    line-height: 32.68px;
+    max-width: 189px;
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+}

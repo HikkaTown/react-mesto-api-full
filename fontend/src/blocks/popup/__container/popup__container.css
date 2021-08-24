@@ -1,0 +1,14 @@
+.popup__container {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+@media screen and (max-width: 430px) {
+  .popup__container {
+    margin: 0 19px;
+    padding: 25px 22px;
+  }
+}

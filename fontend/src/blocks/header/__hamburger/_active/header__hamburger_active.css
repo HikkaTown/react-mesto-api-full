@@ -1,0 +1,11 @@
+.header__hamburger_active .header__hamburger-bar:nth-child(1) {
+  transform: scale(1.1) translateY(6px) rotate(45deg);
+}
+
+.header__hamburger_active .header__hamburger-bar:nth-child(2){
+  opacity: 0;
+}
+
+.header__hamburger_active .header__hamburger-bar:nth-child(3){
+  transform: scale(1.1) translateY(-12px) rotate(-45deg);
+}

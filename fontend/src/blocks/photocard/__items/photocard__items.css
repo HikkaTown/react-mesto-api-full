@@ -1,0 +1,20 @@
+.photocard__items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(-webkit-min-content, 282px));
+  grid-template-columns: repeat(auto-fill, minmax(min-content, 282px));
+  grid-column-gap: 17px;
+  grid-auto-rows: minmax(360px, max-content);
+  grid-row-gap: 20px;
+}
+
+@media screen and (max-width: 940px) {
+  .photocard__items {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}

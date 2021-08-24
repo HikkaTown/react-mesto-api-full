@@ -1,0 +1,36 @@
+.auth__input {
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 0;
+  border-bottom: 2px solid #ccc;
+  background: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 13px;
+  font-family: "Inter", "Arial", sans-serif;
+}
+
+@media screen and (max-width: 425px) {
+  .auth__input {
+    max-width: 260px;
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+}
+
+.auth__input:focus {
+  border-bottom-color: rgb(166, 226, 75);
+}
+
+.auth__input:last-of-type {
+  margin-bottom: 0;
+}
+
+.auth__input::placeholder {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Inter", "Arial", sans-serif;
+  color: #ccc;
+}

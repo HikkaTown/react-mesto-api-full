@@ -1,0 +1,17 @@
+.auth__button {
+  background: none;
+  color: #fff;
+  border: none;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: .3s;
+  text-decoration: none;
+}
+
+.auth__button:hover {
+  opacity: 0.6;
+}

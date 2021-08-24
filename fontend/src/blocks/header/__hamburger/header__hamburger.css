@@ -1,0 +1,15 @@
+.header__hamburger {
+  cursor: pointer;
+  display: none;
+  margin-right: 30px;
+    
+}
+
+@media screen and (max-width: 425px) {
+  .header__hamburger {
+    display: block;
+    grid-area: 2 / 2 / 3 / 3;
+    justify-self: end;
+    margin-top: 28px;
+  }
+}

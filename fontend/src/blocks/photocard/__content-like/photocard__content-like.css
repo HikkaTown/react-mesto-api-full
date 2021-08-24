@@ -1,0 +1,5 @@
+.photocard__content-like {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}

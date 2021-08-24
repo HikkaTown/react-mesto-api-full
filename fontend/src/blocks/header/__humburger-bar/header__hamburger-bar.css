@@ -1,0 +1,13 @@
+.header__hamburger-bar {
+  display: block;
+  width: 24px;
+  height: 24px;
+  height: 3px;
+  margin: 7px auto;
+  transition: all .3s ease-in-out;
+  background-color: #fff;
+}
+
+.header__hamburger-bar:last-child {
+  margin-bottom: 0;
+}
