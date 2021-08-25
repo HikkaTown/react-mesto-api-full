@@ -24,6 +24,7 @@ const allowedCors = [
   'http://praktikum.tk',
   'https://mesto.praktikum.nomoredomains.rocks',
   'https://178.154.193.242',
+  'http://178.154.193.242',
 ];
 
 const app = express();
