@@ -7,3 +7,6 @@ ____
 
 ## https://mesto.praktikum.nomoredomains.rocks/
 
+## https://178.154.193.242
+
+## https://api.mesto.praktikum.nomoredomains.rocks
